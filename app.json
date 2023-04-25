@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "xygen-login",
+    "slug": "xygen-login",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.xygen.login",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "myapp",
+    "extra": {
+      "eas": {
+        "projectId": "5ab25165-40d5-4f0a-9fb7-4ad2a083f006"
+      }
+    },
+    "owner": "nicolasxygen"
+  }
+}
